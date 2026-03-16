@@ -1,0 +1,27 @@
+func min(a: Float, b: Float) -> Float {
+    return Builtin.fmin(a, b)
+}
+
+func max(a: Float, b: Float) -> Float {
+    return Builtin.fmax(a, b)
+}
+
+func floor(value: Float) -> Float {
+    return Builtin.floor(value)
+}
+
+func ceil(value: Float) -> Float {
+    return Builtin.ceil(value)
+}
+
+func round(value: Float) -> Float {
+    return Builtin.round(value)
+}
+
+func abs(value: Float) -> Float {
+    return Builtin.fabs(value)
+}
+
+func sgn(value: Float) -> Float {
+    return Builtin.fsgn(value)
+}

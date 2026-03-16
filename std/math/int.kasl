@@ -1,0 +1,15 @@
+func min(a: Int, b: Int) -> Int {
+    return Builtin.imin(a, b)
+}
+
+func max(a: Int, b: Int) -> Int {
+    return Builtin.imax(a, b)
+}
+
+func abs(value: Int) -> Int {
+    return Builtin.iabs(value)
+}
+
+func sgn(value: Int) -> Int {
+    return Builtin.isgn(value)
+}
