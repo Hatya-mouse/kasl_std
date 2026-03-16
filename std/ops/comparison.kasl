@@ -5,7 +5,7 @@ func infix ==(lhs: Int, rhs: Int) -> Bool {
 }
 
 func infix !=(lhs: Int, rhs: Int) -> Bool {
-    return Builtin.ineq(lhs, rhs)
+    return Builtin.ine(lhs, rhs)
 }
 
 func infix >(lhs: Int, rhs: Int) -> Bool {
@@ -31,7 +31,7 @@ func infix ==(lhs: Float, rhs: Float) -> Bool {
 }
 
 func infix !=(lhs: Float, rhs: Float) -> Bool {
-    return Builtin.fneq(lhs, rhs)
+    return Builtin.fne(lhs, rhs)
 }
 
 func infix >(lhs: Float, rhs: Float) -> Bool {
@@ -53,9 +53,9 @@ func infix <=(lhs: Float, rhs: Float) -> Bool {
 // --- BOOL COMPATISON OPERATORS ---
 
 func infix ==(lhs: Bool, rhs: Bool) -> Bool {
-    return lhs == rhs
+    return Builtin.beq(lhs, rhs)
 }
 
 func infix !=(lhs: Bool, rhs: Bool) -> Bool {
-    return lhs != rhs
+    return Builtin.bne(lhs, rhs)
 }
