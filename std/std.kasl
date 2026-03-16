@@ -1,1 +1,11 @@
 import ops/define
+import ops/arithmetic
+import ops/comparison
+import ops/logical
+
+import math/float
+import math/int
+
+import convert/bool
+import convert/float
+import convert/int
