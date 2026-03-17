@@ -9,7 +9,7 @@ func infix ||(lhs: Bool, rhs: Bool) -> Bool {
 }
 
 func prefix !(operand: Bool) -> Bool {
-    return Builtin.not(lhs)
+    return Builtin.not(operand)
 }
 
 // --- BOOL LOGICAL FUNCTIONS ---
@@ -39,5 +39,5 @@ func xnor(lhs: Bool, rhs: Bool) -> Bool {
 }
 
 func not(operand: Bool) -> Bool {
-    return Builtin.not(lhs)
+    return Builtin.not(operand)
 }
