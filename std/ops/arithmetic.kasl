@@ -20,6 +20,10 @@ func infix %(lhs: Int, rhs: Int) -> Int {
     return Builtin.imod(lhs, rhs)
 }
 
+func prefix -(operand: Int) -> Int {
+    return Builtin.ineg(operand)
+}
+
 // --- FLOAT OPERATORS ---
 
 func infix +(lhs: Float, rhs: Float) -> Float {
@@ -40,4 +44,8 @@ func infix /(lhs: Float, rhs: Float) -> Float {
 
 func infix %(lhs: Float, rhs: Float) -> Float {
     return Builtin.fmod(lhs, rhs)
+}
+
+func prefix -(operand: Float) -> Float {
+    return Builtin.fneg(operand)
 }
