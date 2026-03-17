@@ -6,6 +6,10 @@ func max(a: Int, b: Int) -> Int {
     return Builtin.imax(a, b)
 }
 
+func clamp(x: Int, min: Int, max: Int) -> Int {
+    return Builtin.imax(min, Builtin.imin(x, max))
+}
+
 func abs(value: Int) -> Int {
     return Builtin.iabs(value)
 }
