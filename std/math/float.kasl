@@ -29,3 +29,27 @@ func abs(value: Float) -> Float {
 func sgn(value: Float) -> Float {
     return Builtin.fsgn(value)
 }
+
+func sqrt(value: Float) -> Float {
+    return Builtin.sqrt(value)
+}
+
+func fast_sin(value: Float) -> Float {
+    return Builtin.fast_sin(value)
+}
+
+func fast_cos(value: Float) -> Float {
+    return Builtin.fast_cos(value)
+}
+
+func sin(value: Float) -> Float {
+    return Builtin.sin(value)
+}
+
+func cos(value: Float) -> Float {
+    return Builtin.cos(value)
+}
+
+func tan(value: Float) -> Float {
+    return Builtin.tan(value)
+}
