@@ -53,3 +53,7 @@ func cos(value: Float) -> Float {
 func tan(value: Float) -> Float {
     return Builtin.tan(value)
 }
+
+func pow(lhs: Float, rhs: Float) -> Float {
+    return Builtin.fpow(lhs, rhs)
+}
