@@ -6,8 +6,8 @@ func max(a: Float, b: Float) -> Float {
     return Builtin.fmax(a, b)
 }
 
-func clamp(x: Float, min: Float, max: Float) -> Float {
-    return Builtin.fmax(min, Builtin.fmin(x, max))
+func clamp(x: Float, min_val: Float, max_val: Float) -> Float {
+    return Builtin.fmax(min_val, Builtin.fmin(x, max_val))
 }
 
 func floor(value: Float) -> Float {
